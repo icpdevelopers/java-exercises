@@ -14,5 +14,6 @@ And after we have made the class we can add private attributes to it.
 public class ATMAccount{
     private int accountNumber;
     private double balance;
+    private int pinNumber;
 }
 ```

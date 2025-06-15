@@ -2,7 +2,6 @@
 
 Welcome, budding Java developer! 👋 In this mini–project you will build a **command-line ATM simulator** consisting of two files: `ATMAccount.java` and `ATMSimulatorCLI.java`. By the end, you will have a tiny banking app you can run from any terminal – just like the software that powers real ATM machines (minus the money-spitting hardware).
 
-
 ---
 
 ## Why Build This?
@@ -20,12 +19,16 @@ Welcome, budding Java developer! 👋 In this mini–project you will build a **
 ## Quick Demo
 
 ```bash
-❯ javac ATMSimulatorCLI.java ATMAccount.java # compile the files
-❯ java ATMSimulatorCLI # run the CLI
-===== ATM Simulator =====
-Enter account number (0 to exit): 
+❯ javac ATM.java # compile the files
+❯ java ATM # run the CLI
+1. Withdraw
+2. Deposit
+3. Display Balance
+4. Exit
+Enter your choice: 
 >>
 ```
+
 ---
 
 ## You Got This! 🚀
@@ -57,7 +60,7 @@ In the system we're building, The ATM machine should be able to withdraw or depo
   <div style="padding: 1em; border-left: 3px solid #ccc; margin-top: 0.5em;">
     <ul>
       <li>
-        <p><strong>✅ What you do:</strong> Declare a new class with private fields <code>accountNumber</code> and <code>balance</code>.</p>
+        <p><strong>✅ What you do:</strong> Declare a new class with private fields <code>accountNumber</code> and <code>balance</code> and </code>pinNumber</code>.</p>
       </li>
       <li>
         <p><strong>🏦 Real-world analogy:</strong> Think of a bank folder that stores a unique customer number and their current money tally.</p>
@@ -67,6 +70,11 @@ In the system we're building, The ATM machine should be able to withdraw or depo
       </li>
       <li>
         <p><strong>⚠️ Watch-outs:</strong> Forgetting <code>private</code> means anyone can modify <code>balance</code> directly – not good for security.</p>
+      </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-1.md">here</a>
+        </p>
       </li>
     </ul>
   </div>
@@ -95,7 +103,7 @@ Now that we’ve imagined the account, let’s actually build it with a way to s
   <div style="padding: 1em; border-left: 3px solid #ccc; margin-top: 0.5em;">
     <ul>
       <li>
-        <p><strong>✅ What you do:</strong> Create a constructor inside your <code>ATMAccount</code> class that accepts an <code>accountNumber</code> and a starting <code>balance</code>.</p>
+        <p><strong>✅ What you do:</strong> Create a constructor inside your <code>ATM</code> class that accepts an <code>accountNumber</code> and a starting <code>balance</code> and <code>pinNumber</code>.</p>
       </li>
       <li>
         <p><strong>🏦 Real-world analogy:</strong> Think of this like filling a form to open a bank account, where you get a new ID and make a first deposit.</p>
@@ -108,6 +116,11 @@ Now that we’ve imagined the account, let’s actually build it with a way to s
       </li>
       <li>
         <p><strong>📤 Bonus:</strong> Add <code>getBalance()</code> and <code>getAccountNumber()</code> methods so your ATM can *ask* the account for its current info later on.</p>
+      </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-2.md">here</a>
+        </p>
       </li>
     </ul>
   </div>
@@ -151,6 +164,11 @@ Now that your account is set up with a balance and an ID, it’s time to let the
       <li>
         <p><strong>🌟 Bonus:</strong> Print or return a message from the ATM like “₹100 deposited. New balance: $600.” for better feedback.</p>
       </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-3.md">here</a>
+        </p>
+      </li>
     </ul>
   </div>
 </details>
@@ -193,6 +211,11 @@ Depositing money was easy — now it’s time for the more careful task: letting
       <li>
         <p><strong>📉 Bonus:</strong> If withdrawal fails, return or print a message like “Insufficient balance. Current balance: $120.”</p>
       </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-4.md">here</a>
+        </p>
+      </li>
     </ul>
   </div>
 </details>
@@ -219,7 +242,7 @@ Now that the user can deposit and withdraw money, the next useful thing is letti
   <div style="padding: 1em; border-left: 3px solid #ccc; margin-top: 0.5em;">
     <ul>
       <li>
-        <p><strong>✅ What you do:</strong> Create a method <code>displayBalance()</code> that uses <code>System.out.printf()</code> to show the balance with two decimal places.</p>
+        <p><strong>✅ What you do:</strong> Create a method <code>displayBalance()</code> that uses <code>System.out.printf()</code> to show the balance.</p>
       </li>
       <li>
         <p><strong>🏦 Real-world analogy:</strong> It’s like the ATM screen that says: <em>“Your current balance is ₹547.25”</em>.</p>
@@ -229,6 +252,11 @@ Now that the user can deposit and withdraw money, the next useful thing is letti
       </li>
       <li>
         <p><strong>📋 Bonus:</strong> Include a message like <code>"Current Balance: ₹%.2f"</code> so users feel like they're interacting with a friendly system.</p>
+      </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-5.md">here</a>
+        </p>
       </li>
     </ul>
   </div>
@@ -256,7 +284,7 @@ Now that your ATM account is fully functional, it’s time to simulate the actua
   <div style="padding: 1em; border-left: 3px solid #ccc; margin-top: 0.5em;">
     <ul>
       <li>
-        <p><strong>✅ What you do:</strong> In your <code>main()</code> method (inside <code>ATMSimulatorCLI</code>), create an <code>ATMAccount</code> object, show a menu with numbered options (e.g. 1. Deposit, 2. Withdraw, 3. Balance, 4. Exit), and keep looping using <code>while (true)</code> or a condition.</p>
+        <p><strong>✅ What you do:</strong> In your <code>main()</code> method, create an <code>ATM</code> object, show a menu with numbered options (e.g. 1. Deposit, 2. Withdraw, 3. Balance, 4. Exit), and keep looping using <code>while (true)</code> or a condition.</p>
       </li>
       <li>
         <p><strong>🏦 Real-world analogy:</strong> It’s the ATM’s home screen, ready for the next customer or the next tap.</p>
@@ -269,6 +297,11 @@ Now that your ATM account is fully functional, it’s time to simulate the actua
       </li>
       <li>
         <p><strong>🧠 Bonus:</strong> After each action, pause and ask the user to press Enter to continue — this improves the user experience and readability.</p>
+      </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-6.md">here</a>
+        </p>
       </li>
     </ul>
   </div>
@@ -317,6 +350,11 @@ Now that the ATM shows a menu, it’s time to actually make the buttons work —
       <li>
         <p><strong>🧠 Bonus:</strong> Add small delays (<code>Thread.sleep()</code>) or line dividers to simulate a real ATM experience!</p>
       </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-7.md">here</a>
+        </p>
+      </li>
     </ul>
   </div>
 
@@ -331,7 +369,7 @@ Your ATM app is almost complete — but before launching it into the world, you 
 
 ***So here’s the final question:***
 
->***What happens if a user tries to deposit ₹0? Or withdraw a negative amount? Or types something that isn’t even a number?***
+>***What happens if a user tries to deposit $0? Or withdraw a negative amount? Or types something that isn’t even a number?***
 
 >***Real users make mistakes — and real ATMs are designed to handle them calmly and clearly. Can your program do the same?***
 
@@ -365,6 +403,11 @@ Your ATM app is almost complete — but before launching it into the world, you 
       <li>
         <p><strong>🧠 Bonus:</strong> Add a confirmation prompt when the user chooses "Exit" — like <code>“Are you sure? (Y/N)”</code> to make the experience more interactive.</p>
       </li>
+      <li>
+        <p>
+          Solution : <a href="Solutions/Step-8.md">here</a>
+        </p>
+      </li>
     </ul>
   </div>
 </details>
@@ -386,11 +429,11 @@ Your ATM app is almost complete — but before launching it into the world, you 
 
 ## Bonus Extension Ideas
 
-- **Multiple accounts** – Store a `Map<Integer, ATMAccount>` and let users “insert” different cards.
-- **PIN authentication** – Add security before transactions.
-- **Persistence** – Save balances to a file or small database so money survives program restarts.
-- **Unit tests** – Use JUnit to ensure deposits and withdrawals never misbehave.
-- **GUI upgrade** – Swing or JavaFX for a windowed ATM.
+* **Multiple accounts** – Store a `Map<Integer, ATMAccount>` and let users “insert” different cards.
+* **PIN authentication** – Add security before transactions.
+* **Persistence** – Save balances to a file or small database so money survives program restarts.
+* **Unit tests** – Use JUnit to ensure deposits and withdrawals never misbehave.
+* **GUI upgrade** – Swing or JavaFX for a windowed ATM.
 
 ---
 
