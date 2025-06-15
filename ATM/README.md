@@ -31,7 +31,7 @@ Enter account number (0 to exit):
 
 ## Step-by-Step Walkthrough
 
-Below is a mentor-style roadmap. Treat each step like a checkpoint – compile and run after every change so bugs stay small and friendly.
+Let's get started. Treat each step like a checkpoint – compile and run after every change so bugs stay small and friendly.
 
 <h3>Step 1:</h3>
 
