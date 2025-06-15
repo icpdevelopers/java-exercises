@@ -1,0 +1,19 @@
+# Java / IDE / OS artifacts to ignore
+
+# --- Runtime & Build ---
+*.class
+
+# --- IDEs ---
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# --- Operating System ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
