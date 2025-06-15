@@ -59,7 +59,9 @@ mkdir <Project_name>
 ```
 
 Replace `<Project_name>` with the name of the project you want to build. For example, if you want to build the Student Grade Calculator, you would replace `<Project_name>` with `Student_Grade`.
-
+<br />
+<br />
+> **NOTE:** If you are a beginner then the starting project could be `<Project_name>`
 ---
 
 ## 📚 Projects Overview
