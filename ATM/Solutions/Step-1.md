@@ -1,4 +1,4 @@
-# Step 1
+# Step 1 - ATMAccount Class
 
 First we need to make a class name `ATMAccount`
 

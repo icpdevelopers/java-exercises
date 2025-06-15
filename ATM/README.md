@@ -26,6 +26,11 @@ Welcome, budding Java developer! 👋 In this mini–project you will build a **
 Enter account number (0 to exit): 
 >>
 ```
+---
+
+## You Got This! 🚀
+
+Every successful software engineer started with tiny projects just like this one. Celebrate each bug you squash – it means you learned something new today. Keep iterating, keep experimenting, and most importantly **have fun**. The ATM world (and the real one) awaits your next creation!
 
 ---
 
@@ -144,7 +149,7 @@ Now that your account is set up with a balance and an ID, it’s time to let the
         <p><strong>⚠️ Watch-outs:</strong> Don’t compare doubles with <code>==</code>. Just check if <code>amount &gt; 0</code> to be safe.</p>
       </li>
       <li>
-        <p><strong>🌟 Bonus:</strong> Print or return a message from the ATM like “₹100 deposited. New balance: ₹600.” for better feedback.</p>
+        <p><strong>🌟 Bonus:</strong> Print or return a message from the ATM like “₹100 deposited. New balance: $600.” for better feedback.</p>
       </li>
     </ul>
   </div>
@@ -174,7 +179,7 @@ Depositing money was easy — now it’s time for the more careful task: letting
   <div style="padding: 1em; border-left: 3px solid #ccc; margin-top: 0.5em;">
     <ul>
       <li>
-        <p><strong>✅ What you do:</strong> Create a method <code>withdraw(double amount)</code> that subtracts money *only if* the balance is enough and <code>amount &gt; 0</code>.</p>
+        <p><strong>✅ What you do:</strong> Create a method <code>withdraw(double amount)</code> that subtracts money <strong>only if</strong> the balance is enough and <code>amount &gt; 0</code>.</p>
       </li>
       <li>
         <p><strong>🏦 Real-world analogy:</strong> The ATM double-checks your balance before handing you the cash. If there’s not enough, it refuses — but politely.</p>
@@ -186,7 +191,7 @@ Depositing money was easy — now it’s time for the more careful task: letting
         <p><strong>⚠️ Watch-outs:</strong> Don't update the balance *before* checking if there's enough money. Always validate first.</p>
       </li>
       <li>
-        <p><strong>📉 Bonus:</strong> If withdrawal fails, return or print a message like “Insufficient balance. Current balance: ₹120.”</p>
+        <p><strong>📉 Bonus:</strong> If withdrawal fails, return or print a message like “Insufficient balance. Current balance: $120.”</p>
       </li>
     </ul>
   </div>
@@ -314,6 +319,7 @@ Now that the ATM shows a menu, it’s time to actually make the buttons work —
       </li>
     </ul>
   </div>
+
 </details>
 <br />
 
@@ -388,6 +394,8 @@ Your ATM app is almost complete — but before launching it into the world, you 
 
 ---
 
-## You Got This! 🚀
+## Congratulations! 🎉
 
-Every successful software engineer started with tiny projects just like this one. Celebrate each bug you squash – it means you learned something new today. Keep iterating, keep experimenting, and most importantly **have fun**. The ATM world (and the real one) awaits your next creation!
+You've successfully built a functional ATM simulator. This is just the beginning. In the real world, ATMs are more complex than this. But you've just scratched the surface.
+
+Continue with other project [**Here**](../README.md)
