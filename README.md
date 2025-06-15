@@ -68,17 +68,17 @@ Replace `<Project_name>` with the name of the project you want to build. For exa
 
 **Project Description**
 
-1. [**Student Grade Calculator**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/Student_Grade) - Add students, calculate class average, assign grades.
-2. [**Banking Account Manager**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/BankAccount) - Manage bank accounts with deposit, withdrawal, and balance.
-3. [**Library Book Manager**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/LibraryManagement) - Track, borrow, and return books with search.
-4. [**Expense Tracker**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/ExpenseTracker) - Monitor daily expenses, categories, and monthly budget.
-5. [**Contact Directory**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/ContactDirectory) - Add, update, and search for contacts.
-6. [**Quiz Game Engine**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/QuizGame) - Play timed, scored quizzes with difficulty levels.
-7. [**Password Manager**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/PasswordManager) - Generate, store, and check password strength.
-8. [**Inventory Manager**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/InventoryManagement) - Manage stock levels, restock alerts, and valuation.
-9. [**Task Tracker**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/TaskManagement) - Prioritize and schedule tasks with completion tracking.
-10. [**ATM Simulator**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/ATM) - PIN-based ATM simulation with receipt generation.
-11. [**Hangman Game**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/Hangman) - Classic word guessing game with difficulty settings.
+1. [**Student Grade Calculator**]() - Add students, calculate class average, assign grades.
+2. [**Banking Account Manager**]() - Manage bank accounts with deposit, withdrawal, and balance.
+3. [**Library Book Manager**]() - Track, borrow, and return books with search.
+4. [**Expense Tracker**]() - Monitor daily expenses, categories, and monthly budget.
+5. [**Contact Directory**]() - Add, update, and search for contacts.
+6. [**Quiz Game Engine**]() - Play timed, scored quizzes with difficulty levels.
+7. [**Password Manager**]() - Generate, store, and check password strength.
+8. [**Inventory Manager**]() - Manage stock levels, restock alerts, and valuation.
+9. [**Task Tracker**]() - Prioritize and schedule tasks with completion tracking.
+10. [**ATM Simulator**](/ATM/) - PIN-based ATM simulation with receipt generation.
+11. [**Hangman Game**]() - Classic word guessing game with difficulty settings.
 
 ---
 
