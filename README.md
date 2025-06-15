@@ -77,7 +77,7 @@ Replace `<Project_name>` with the name of the project you want to build. For exa
 7. [**Password Manager**]() - Generate, store, and check password strength.
 8. [**Inventory Manager**]() - Manage stock levels, restock alerts, and valuation.
 9. [**Task Tracker**]() - Prioritize and schedule tasks with completion tracking.
-10. [**ATM Simulator**](/ATM/) - PIN-based ATM simulation with receipt generation.
+10. [**ATM Simulator**](/ATM/README.md) - PIN-based ATM simulation with receipt generation.
 11. [**Hangman Game**]() - Classic word guessing game with difficulty settings.
 
 ---
@@ -102,7 +102,7 @@ java MainClass.java
 
 ## 📦 Detailed Project Highlights
 
-1. [**Student Grade Calculator**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/Student_Grade)
+1. [**Student Grade Calculator**]()
 
 - Add student name and grade (0-100)
 - Display class average and corresponding grade letter
@@ -111,7 +111,7 @@ java MainClass.java
 
 ---
 
-2. [**Banking Account Manager**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/BankAccount)
+2. [**Banking Account Manager**]()
 
 - Create, view, update, and delete accounts
 - Deposit, withdraw, and check account balances
@@ -119,7 +119,7 @@ java MainClass.java
 
 ---
 
-3. [**Library Management System**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/LibraryManagement)
+3. [**Library Management System**]()
 
 - Add, remove, and check book availability
 - Search by title, author, or ISBN
@@ -127,7 +127,7 @@ java MainClass.java
 
 ---
 
-4. [**Expense Tracker**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/ExpenseTracker)
+4. [**Expense Tracker**]()
 
 - Add, remove, and view monthly expenses
 - Categorize expenses for detailed tracking
@@ -136,7 +136,7 @@ java MainClass.java
 
 ---
 
-5. [**Contact Directory**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/ContactDirectory)
+5. [**Contact Directory**]()
 
 - Add, update, and search for contacts
 - Regex-based phone/email validation
@@ -144,7 +144,7 @@ java MainClass.java
 - Modular CLI with validation exceptions  (Regex, Duplicate, Edit)
 
 ---
-6. [**Quiz Game Engine**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/QuizGame) (QuizGame)
+6. [**Quiz Game Engine**]()
 
 - Shuffled questions with scoring system
 - Tracks accuracy and response time
@@ -152,7 +152,7 @@ java MainClass.java
 
 ---
 
-7. [**Password Manager**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/PasswordManager)
+7. [**Password Manager**]()
 
 - Strong password generator with optional symbols
 - Base64 mock encryption (for learning)
@@ -160,7 +160,7 @@ java MainClass.java
 
 ---
 
-8. [**Inventory System**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/InventoryManagement)
+8. [**Inventory System**]()
 
 - Add/remove stock and auto-alert for reorder level
 - Custom InsufficientStockException
@@ -168,7 +168,7 @@ java MainClass.java
 
 ---
 
-9. [**Task Management System**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/TaskManagement)
+9. [**Task Management System**]()
 
 - Tasks with deadlines, priority, and completion status
 - Completion percentage + overdue detection
@@ -176,7 +176,7 @@ java MainClass.java
 
 ---
 
-10. [**ATM Simulator**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/ATM)
+10. [**ATM Simulator**](/ATM/README.md)
 
 - PIN-authenticated transactions with demo account
 - Record transaction history and print receipts
@@ -184,7 +184,7 @@ java MainClass.java
 
 ---
 
-11. [**Hangman Game**](https://github.com/darshan-regmi/JAVA-_-Exercise/tree/main/Hangman)
+11. [**Hangman Game**]()
 
 - Word guessing with difficulty levels and scoring
 - ASCII drawing for hangman visuals
