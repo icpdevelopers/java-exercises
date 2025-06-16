@@ -2,7 +2,7 @@
 
 Now that we have created a basic functionality of the ATM we can now begin to simulate the experience we get when using a real ATM like where we can repeatedly do the task of withdrawing and depositing money.
 
-We can create a main method to test our ATM class.
+We can create another class to act as a entry point for our ATM and add a main method to test our ATM class.
 
 ```java
 public static void main(String[] args) {
@@ -21,4 +21,4 @@ public static void main(String[] args) {
 }
 ```
 
-This is a basic ATM simulation. We can add more features to this simulation like adding a PIN number to the account, transferring money between accounts, etc.
+This function will display the menu when we run the program.

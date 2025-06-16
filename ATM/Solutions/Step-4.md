@@ -4,11 +4,12 @@ We can create a withdraw function that takes an amount as arguments. This functi
 
 ```java
 public void withdraw(double amount) {
-  if (amount >= balance && amount > 0) {
-    balance -= amount;
-  }
-  else {
-    System.out.println("Insufficient funds.");
-  }
+    if (amount <= 0) {
+        System.out.println("Withdrawal amount must be positive.");
+    } else if (amount <= balance) {
+        balance -= amount;
+    } else {
+        System.out.println("Insufficient funds.");
+    }
 }
 ```
