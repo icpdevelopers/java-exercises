@@ -23,12 +23,14 @@ public class ATM {
     }
 
     public void withdraw(double amount) {
-        if (amount > 0 && amount <= balance) {
-            balance -= amount;
-        } else {
-            System.out.println("Insufficient funds.");
-        }
+    if (amount <= 0) {
+        System.out.println("Withdrawal amount must be positive.");
+    } else if (amount <= balance) {
+        balance -= amount;
+    } else {
+        System.out.println("Insufficient funds.");
     }
+}
 
     public void displayBalance() {
         System.out.println("Your current balance is: " + balance);
