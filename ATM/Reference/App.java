@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class App {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
         ATM atm = new ATM(10000.00, 1234);
         Scanner scanner = new Scanner(System.in);
 
